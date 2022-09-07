@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg">
+
+  <img (click)="show()"
+    [ngClass]="hide? 'hide':''"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
+    alt="asd" class="img">
+
+  <img 
+  [ngClass]="isShow? 'hide':''"
+  (click)="close()"
+  src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png" alt="" class="close">
+
+  <div [ngClass]="isActive? 'show': 'navbar-collapse'" class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="Home" routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact:true}">HOME<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="portfolio" routerLinkActive="active">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="resume" routerLinkActive="active">RESUME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about/me" routerLinkActive="active">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="my/contact" routerLinkActive="active">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>

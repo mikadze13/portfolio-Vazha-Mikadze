@@ -1,0 +1,117 @@
+.main{
+    background-color: rgba(34,34,34,255);
+    
+    display: flex;
+    align-items: center;
+}
+
+.main-child{
+    width: 60%;  
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+}
+
+.photo{
+    width: 500px;
+    height: 425px; 
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-me{
+    width: 500px;
+    height: 425px; 
+    padding: 60px;
+    display: flex;
+    flex-direction: column; 
+    color: white;
+}
+.about-me h3 strong{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.about-me h3{
+    font-weight: 300;
+}
+.about-me p{
+    font-size: 19px;
+    color: rgba(133,133,133,255);
+}
+.about-me span{
+    color:rgba(133,133,133,255);
+}
+
+.but{
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: rgba(133,133,133,255);
+     
+    border: none;
+    letter-spacing: 1.2;
+}
+.buttons{
+    padding-top:40px ;
+}
+
+.but:hover{
+    transition: all .4s ease-in-out;
+    background-color: rgba(133, 133, 133, 0.8);
+}
+.but a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width:1550px){
+    .main-child{
+        width: 70%;
+    }
+}
+@media screen and (max-width:1250px){
+    .main-child{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main-child{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width:800px){
+    .main-child{
+        margin-top: 39px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:565px){
+    .photo, .about-me{
+        width: 100%; 
+    }
+
+    .about-me{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:390px){
+    .main-child{
+        padding: 10px;
+    }
+    .photo, .about-me{
+        padding: 0; 
+
+    }
+    
+}

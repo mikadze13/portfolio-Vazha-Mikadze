@@ -1,0 +1,49 @@
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.nav-item a{
+    color: white;
+} 
+.nav-item .active{
+    color: aqua;
+}
+.img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: none;
+}
+.navbar-collapse{
+    justify-content: center;
+}
+.hide{
+    display: none !important;
+}
+.close{
+    width: 24px;
+    height: 24px;
+    cursor: pointer; 
+}
+@media screen and (max-width:992px){
+    nav{
+        transition: 0.3s ease;
+        background-color: rgba(34,34,34,255);
+    }
+    .img{
+        display: block;
+    }
+    .navbar-collapse{ 
+        transition: 0.3s ease;
+        display: none; 
+    }
+    .show{
+        transition: 0.3s ease;
+        display: block;
+    }
+}
