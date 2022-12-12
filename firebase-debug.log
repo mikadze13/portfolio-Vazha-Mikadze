@@ -1,0 +1,48 @@
+[debug] [2022-09-10T12:34:20.994Z] ----------------------------------------------------------------------
+[debug] [2022-09-10T12:34:20.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vmiqa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-10T12:34:20.999Z] CLI Version:   11.8.1
+[debug] [2022-09-10T12:34:20.999Z] Platform:      win32
+[debug] [2022-09-10T12:34:20.999Z] Node Version:  v16.15.0
+[debug] [2022-09-10T12:34:21.001Z] Time:          Sat Sep 10 2022 16:34:21 GMT+0400 (Georgia Standard Time)
+[debug] [2022-09-10T12:34:21.002Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-10T12:34:21.118Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-10T12:34:21.119Z] > authorizing via signed-in user (vmiqaze@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vmiqa\Desktop\PORTFOLIO
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-10T12:35:00.813Z] Using project from CLI flag: fir-angular-auth-cd11b
+[debug] [2022-09-10T12:35:00.824Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-angular-auth-cd11b [none]
+[debug] [2022-09-10T12:35:01.435Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-angular-auth-cd11b 200
+[debug] [2022-09-10T12:35:01.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-angular-auth-cd11b {"projectId":"fir-angular-auth-cd11b","projectNumber":"753752184541","displayName":"firebase-angular-auth","name":"projects/fir-angular-auth-cd11b","resources":{"hostingSite":"fir-angular-auth-cd11b","realtimeDatabaseInstance":"fir-angular-auth-cd11b-default-rtdb","storageBucket":"fir-angular-auth-cd11b.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_0892f5a0-c2c5-4804-a1ae-e02d6747b318"}
+[info] i  Using project fir-angular-auth-cd11b (firebase-angular-auth) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-10T12:43:34.912Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\vmiqa\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:527:28)

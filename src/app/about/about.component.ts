@@ -11,5 +11,14 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
   } 
+  downloadMyFile(){
+    const link = document.createElement('a');
+    link.setAttribute('target', '_blank');
+    link.setAttribute('href', '../../assets/cv/Vazha_Mikadze.pdf');
+    link.setAttribute('download', `Vazha_Mikadze.pdf`);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  } 
 
 }

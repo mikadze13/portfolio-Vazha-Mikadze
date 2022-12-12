@@ -62,7 +62,7 @@
     transition: all .4s ease-in-out;
     background-color: rgba(133, 133, 133, 0.8);
 }
-.but a{
+.but {
     text-decoration: none;
     color: white;
 }

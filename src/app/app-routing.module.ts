@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 
-const routes: Routes = [
+const routes: Routes = [ 
+  {path:'',redirectTo:'Home' ,pathMatch:'full'},
   {path:'Home',component:HomeComponent},
   {path:'portfolio',component:PortfolioComponent},
   {path:'resume',component:ResumeComponent},

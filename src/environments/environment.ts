@@ -5,7 +5,7 @@
 export const environment = {
   production: false ,
   baseUrl:
-  'https://fir-angular-auth-cd11b-default-rtdb.firebaseio.com/'
+  'https://portfolio-vazhamikadze-default-rtdb.europe-west1.firebasedatabase.app/'
 };
 
 /*
